@@ -8490,6 +8490,8 @@ in
     libpsl = null;
   };
 
+  wget2 = callPackage ../tools/networking/wget2 { };
+
   wg-bond = callPackage ../applications/networking/wg-bond { };
 
   which = callPackage ../tools/system/which { };
